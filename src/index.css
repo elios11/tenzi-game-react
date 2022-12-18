@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #1b71a7;
+    background-color: #0a283b;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ main {
     margin-top: 2rem;
     font-weight: 700;
     font-size: 1rem;
-    background-color: #5035FF;
+    background-color: #7863ff;
     color: white;
     padding: 1rem 3rem;
     letter-spacing: 1px;
@@ -50,7 +50,7 @@ main {
 }
 
 .roll-button:active {
-    background-color: #3c26c9;
+    background-color: #533ce7;
 }
 
 @media (min-width: 576px) {
