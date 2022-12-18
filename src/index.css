@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #0B2434;
+    background-color: #1b71a7;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,6 +14,7 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #F5F5F5;
@@ -39,5 +40,29 @@ main {
     .dice-container {
         width: 75%;
         gap: 1.5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 2000px) {
+    html {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 3000px) {
+    html {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 3600px) {
+    html {
+        font-size: 42px;
     }
 }
