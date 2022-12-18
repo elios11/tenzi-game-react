@@ -12,6 +12,10 @@ body {
     font-family: "Karla", sans-serif;
 }
 
+h1, p {
+    margin: 0;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,20 @@ main {
     border-radius: 10px;
     width: 20rem;
     height: 35rem;
+    padding: 0 10%;
+}
+
+.game-title {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1rem;
+    color: #6d5eb6;
+}
+
+.game-instructions {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #4A4E74;
 }
 
 .dice-container {
@@ -28,7 +46,7 @@ main {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr 1fr;
     gap: 1rem 0.5rem;
-    width: 85%;
+    width: 100%;
 }
 
 .roll-button {
@@ -72,18 +90,18 @@ main {
 
 @media (min-width: 2000px) {
     html {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 
 @media (min-width: 3000px) {
     html {
-        font-size: 35px;
+        font-size: 45px;
     }
 }
 
 @media (min-width: 3600px) {
     html {
-        font-size: 42px;
+        font-size: 60px;
     }
 }
