@@ -13,3 +13,8 @@
     user-select: none;
     aspect-ratio: 1;
 }
+
+.held {
+    background-color: #1db8ab;
+    color: white;
+}
