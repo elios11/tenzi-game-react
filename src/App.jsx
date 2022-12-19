@@ -7,7 +7,7 @@ import WindowSize from "./components/WindowSize"
 export default function App() {
     const [dice, setDice] = useState(() => generateDice())
     const [tenzi, setTenzi] = useState(false)
-    const { width, heigth } = WindowSize()
+    const { width, height } = WindowSize()
 
     useEffect(() => {
         let allHeld = true
@@ -26,7 +26,6 @@ export default function App() {
             setTenzi(true)
         }
     }, [dice])
-
 
     function createNewDie() {
         return {
@@ -80,7 +79,7 @@ export default function App() {
 
     return (
         <main>
-            {tenzi && <Confetti width={width} height={heigth} />}
+            {tenzi && <Confetti width={width} height={height} />}
             <h1 className="game-title">Tenzi</h1>
             <p className="game-instructions">
                 Roll until all dice are the same. Click each die to freeze it at
